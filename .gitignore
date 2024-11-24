@@ -1,0 +1,56 @@
+# Sistema operativo
+*.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de configuración locales
+*.env
+*.local
+config/settings/local.py
+
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Bases de datos locales
+db.sqlite3
+*.sqlite3
+
+# Archivos de compilación y cache
+/staticfiles/
+/media/
+/node_modules/
+
+# Archivos de migración
+migrations/**/000*.py
+migrations/**/000*.pyc
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.iml
+
+# Otros
+coverage.xml
+*.coverage
+*.pot
+*.mo
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Static y media generados por collectstatic
+/static/
